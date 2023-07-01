@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <IndexView />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IndexView from './views/IndexView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IndexView
+  },
+  mounted() {
+    // alert(window.$);
+    // const plugin = document.createElement("script");
+    // plugin.setAttribute(
+    //   "src",
+    //   "./assets/js/script.js"
+    // );
+    // plugin.async = true;
+    // document.head.appendChild(plugin);
   }
 }
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+@import '@/assets/css/bootstrap.min.css';
+@import '@/assets/css/themify-icons.css';
+@import '@/assets/css/owl.carousel.min.css';
+@import '@/assets/css/style.css';
 </style>
