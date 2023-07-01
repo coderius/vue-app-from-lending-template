@@ -1,4 +1,8 @@
-# one-page
+# Vue App From Landing Template
+
+html&css&js Template adaptation for usage wich Vue.js
+See original template without Vue.js [here](https://codworker.github.io/smart-watch-layout/).
+GitHub link [this template](https://github.com/CodWorker/smart-watch-layout).
 
 ## Project setup
 ```
